@@ -1,0 +1,28 @@
+# Tool and editor metadata
+.agents/
+.codex/
+.vscode/
+.idea/
+
+# Dependencies and build output
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+
+# Runtime files and logs
+*.log
+logs/
+tmp/
+temp/
+cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Operating-system files
+.DS_Store
+Thumbs.db
